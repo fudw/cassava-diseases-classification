@@ -7,6 +7,8 @@ Dataset from https://www.kaggle.com/c/cassava-leaf-disease-classification/<br/>
 <br/><br/><br/>
 ### First attempt with ResNet architecture with tensorflow.keras
 
+v03.1 Trained for 2 epochs with 1e-3 LR, val_loss: 0.51; val_acc: 0.83. Should reduce LR next<br/>
+
 ##### 25.07.2021
 v03 Suspecting being stuck in local minimum, retrained from imagenet weights, using same adatping and fine-tuning strategies with imbalanced training set but slightly modified class weights (2, 2, 2, 1, 2) to over-penalise minority class mistakes. Trained 2 epochs with 1e-3 LR, val_loss: 0.46; val_acc: 0.85<br/>
 <br/>
