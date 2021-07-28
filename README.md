@@ -6,7 +6,7 @@
 Dataset from https://www.kaggle.com/c/cassava-leaf-disease-classification/<br/>
 <br/><br/><br/>
 ### First attempt with ResNet architecture with tensorflow.keras
-
+v03.3 Returned to v02.4 weights and produced gradient-weighted class activation maps on misclassified validation examples<br/>
 v03.2 Trained for 10 more epochs with decreashing LR, best val_loss: 0.39; val_acc: 0.87. Class weights don't seem to help improve precision or recall on minority classes much. <br/>
 v03.1 Trained for 2 epochs with 1e-3 LR, val_loss: 0.51; val_acc: 0.83. Should reduce LR next<br/>
 
