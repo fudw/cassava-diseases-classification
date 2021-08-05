@@ -5,7 +5,7 @@ Dataset from https://www.kaggle.com/c/cassava-leaf-disease-classification/<br/>
 ##### 04.08.2021
 V04 Cleaned up code and added comments and descriptive texts<br/>
 
-v03.3 Returned to v02.4 weights and produced class activation maps on misclassified validation examples. CAM reveal decent attention to relevant parts of image for classification, but misclassifications mostly result from lack of strong activations, likely the reason for poor accuracy for minority classes<br/>
+v03.3 Returned to v02.4 weights and produced class activation maps on misclassified validation examples. CAM reveal decent attention to relevant parts of image for classification, but misclassifications mostly result from dispersed activations not paying attention to the right parts, likely the reason for poor accuracy for minority classes<br/>
 v03.2 Trained for 10 more epochs with decreashing LR, best val_loss: 0.39; val_acc: 0.87. Class weights don't seem to help improve precision or recall on minority classes much. <br/>
 v03.1 Trained for 2 epochs with 1e-3 LR, val_loss: 0.51; val_acc: 0.83. Should reduce LR next<br/>
 
