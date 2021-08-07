@@ -2,7 +2,7 @@
 ### Identify the type of disease present on a Cassava Leaf image
 Dataset from https://www.kaggle.com/c/cassava-leaf-disease-classification/<br/>
 <br/>
-I implement an image classification model in TensorFlow/Keras with data augmentation and transfer learning and achieves competitive performance compared with single-model results. I also implement class activation maps for model visualisation and extra interpretability. 
+I implement an image classification model in TensorFlow/Keras with data augmentation and transfer learning and achieves competitive performance compared with other single-model results on Kaggle leaderboards. I also implement class activation maps for model visualisation and extra interpretability. 
 <br/><br/><br/>
 #### Version history
 
